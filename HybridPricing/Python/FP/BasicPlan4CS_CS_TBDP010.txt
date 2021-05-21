@@ -1,0 +1,634 @@
+ID	score	actType	legMode
+26531737	1126.078863703342	home	bike	
+-	-	other	bike	
+-	-	home		
+26531740	1197.4767652012752	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26589077	1228.353677000479	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+26628524	1421.4864856196257	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+26691261	1204.0240550963833	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26693570	1181.4748327094374	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26710753	1436.2641551507943	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+26712590	1434.2452093810516	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+26725100	1479.7754771813818	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+26725247	1131.5418849615382	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26732852	1205.655413408087	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26738200	1226.3167864108095	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+26738201	1206.8013531484444	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+26760170	1128.5855966522915	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26769049	1442.226681954203	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+26769971	1200.3575365015258	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26785687	1238.238822493897	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+26788238	1238.627115143992	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+26790781	1125.010751693804	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26808788	1205.5117668055175	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26808789	1203.6541103450932	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26808914	1202.3023948907123	home	car	
+-	-	other	car	
+-	-	home		
+26809327	1202.0705967748233	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26812631	1200.9946457143258	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26814681	1173.9745492958211	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26815767	1125.520839526896	home	bike	
+-	-	other	bike	
+-	-	home		
+26835393	1184.2159773818337	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26841256	1200.8814036634867	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26859171	1236.9817437903837	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+26863191	1400.878877992957	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+26871562	1207.7812655220969	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26880919	306.67101515353625	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26903784	1220.2346299804196	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+26914128	1198.3013062565299	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26917175	1198.5326461294046	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26921647	1125.6466400483632	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26923421	1203.6164313314039	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26933106	1203.8370605624675	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26937102	1204.3952455811116	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26942319	1231.155660657399	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+26951903	1187.8834492939186	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26992920	1203.1844352024323	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+26995486	1198.0924868459747	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27006342	1199.4012994387306	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27010839	1200.8015204020924	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27030498	1277.8245141443422	home	twoway_vehicle	
+-	-	education	twoway_vehicle	
+-	-	home		
+27050544	1137.994198729083	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27051499	1197.749452659605	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27056719	1234.9061169781337	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+27076531	1096.1528461095827	home	pt	
+-	-	shopping	pt	
+-	-	home		
+27098904	1238.4333467148865	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+27104043	1102.3215575803981	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27135234	1203.6030826675185	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27149052	744.1516052277126	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+27152022	1239.4908923397875	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+27166063	1136.2361337716022	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27178172	1203.7493481274037	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27186044	1455.0968308081713	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+27217556	1040.2479836092516	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27248587	1196.1954144561626	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27258177	1200.7567483644707	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27339817	1199.4758456685774	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27357950	1197.5682914957918	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27358290	1425.9425026503277	home	car	
+-	-	work	car	
+-	-	home		
+27367425	1234.5193425886732	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+27379595	1204.5410285079017	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27382060	1236.0120420914093	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+27387271	1200.2141814251975	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27397456	1202.8677085265945	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27406184	1466.849192896923	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+27415808	1236.321830695541	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+27418930	1205.4675760222422	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27429421	1200.3540302603926	home	car	
+-	-	other	car	
+-	-	home		
+27437350	1237.449085799073	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+27445225	1389.8189556726506	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+27493290	1204.2935429392778	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27502285	1201.7701229654858	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27518969	1195.6541138291502	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27526704	1476.2603646271689	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+27564862	1430.3549591996452	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+27578650	1199.7490856270485	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27581443	1191.494555811028	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27581445	1197.9272592934449	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27591679	1176.6327528597067	home	car	
+-	-	other	car	
+-	-	home		
+27609177	1201.4189225206683	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27619637	1151.0917431202497	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27630973	1201.684357173051	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27669894	328.76217389627254	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27700195	1241.0142374839813	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+27703922	1181.4145880268911	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27714263	1203.5429486092642	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27714563	1204.2112904963867	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27724934	1446.4939588219443	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+27745497	1193.4433691104318	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27770972	1200.8193976208056	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27779882	1212.3186647936698	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+27803022	1232.9560186640454	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+27820663	1450.5241329125388	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+27859526	727.9421278020901	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+27878389	1237.1706264970178	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+27880711	1197.187178298551	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27889513	1236.2741861010181	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+27894177	1200.9284512631568	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27932266	1107.1468539092896	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+27936841	1204.9875748112167	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27937195	1203.8259530236724	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27941778	1205.944951411693	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27946745	1395.2915536184687	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+27972643	1204.0846312065346	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+27981722	1200.2168024597408	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28008802	1198.4181749104443	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28014482	1198.9459656566423	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28021585	1196.4413784115497	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28021586	1197.441331745012	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28021587	1160.049112578566	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28027346	1190.190909551983	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28045874	1130.7017408380646	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28068296	1174.3546254575033	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28104532	1198.6480546497821	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28154652	1204.4935217658217	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28160720	1436.5402015282814	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+28176764	1203.752789461243	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28254074	1199.8639884858546	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28286168	1204.010687146724	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28300745	1202.1965531625267	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28304075	1204.0118668347648	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28338904	1192.2038390708635	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28339980	1493.7270204875224	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+28342276	1416.0486772967051	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+28497556	1202.927806198195	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28506439	1193.9451045076507	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28560815	1199.1110639012513	home	car	
+-	-	other	car	
+-	-	home		
+28563091	1197.9302999917452	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28576961	1480.9028651190063	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+28581372	1205.2904372093722	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28588940	1204.6919641294928	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28625941	1183.7966541520254	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28627734	1202.8606381847017	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28637897	1122.6555105708628	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28662617	1200.2023714014592	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28665783	1131.810585508349	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28687111	1196.7889041441979	28704786	1442.9332309056429	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+28716384	1200.861320708441	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28720334	1184.3128787020553	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28721633	1201.8020579511053	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28750118	1235.203146380391	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+28751477	1183.263609746252	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28769279	1130.913891662384	home	car	
+-	-	other	car	
+-	-	home		
+28919026	1348.309463143344	home	twoway_vehicle	
+-	-	education	twoway_vehicle	
+-	-	home		
+28920154	1199.4774541886047	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28932186	1134.354429201648	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+28960673	1206.516535630995	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+29015405	-526.7312733615588	home	twoway_vehicle	
+-	-	education	twoway_vehicle	
+-	-	home		
+29017550	1200.938840651373	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+29040308	747.551790197211	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+29058491	1190.3060886996795	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+29083410	328.4046916951464	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+29103088	1202.1217248413932	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+29103673	1203.8593450988885	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+29134707	1188.146255108651	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+29145679	1198.7742598210402	home	car	
+-	-	other	car	
+-	-	home		
+29150141	1131.7130782124111	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+29152783	1204.1416787151486	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+29189504	1202.1796882667345	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+29189507	1200.5174342222635	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+29192140	1195.9561828076016	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+29201599	1202.970079493432	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+29281011	1185.319618409929	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+29312809	1316.42307496085	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+29317060	1205.531454760138	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+29366096	1015.3185318963897	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+29414923	1131.5428637868208	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+29459020	1212.1093611820042	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+29549838	1382.8256713439005	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+29550622	1201.5852920675336	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+29553322	1201.8524245487938	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+29610542	1199.0711392233602	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+29610543	1200.4746310259916	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+29612570	1136.872373488422	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+29694535	1230.6557002399354	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+29776267	1200.7987970750569	home	twoway_vehicle	
+-	-	shopping	twoway_vehicle	
+-	-	home		
+29838166	1206.1591525096194	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+29874702	1202.1555120040382	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+29892267	1200.9213473038794	home	car	
+-	-	other	car	
+-	-	home		
+30265930	1197.9910740366572	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+30663772	1202.07081243012	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+31128650	1129.6892409017917	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+31502089	1335.8662107999219	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+31574958	1195.9844611421756	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+31743937	1356.292802162968	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+31882953	1201.839600840825	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+32107184	1204.7669747257128	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+32582061	1202.5585821149866	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+32707629	1201.667350561047	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+32742233	1199.0902938783179	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+32801843	1199.0833612541187	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+32823610	1202.5333250893004	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+32922029	1202.8561865611928	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+33008747	1202.4480632097393	home	car	
+-	-	other	car	
+-	-	home		
+33288419	1426.8157224827253	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+33490035	1202.6686078922046	home	car	
+-	-	other	car	
+-	-	home		
+33681734	1191.687992129699	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+33753371	1131.1586176040803	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+34013823	1415.556885760126	home	twoway_vehicle	
+-	-	work	twoway_vehicle	
+-	-	home		
+34063378	1201.9630148616486	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+34462705	1203.7468296493487	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+34688641	1204.5883576062395	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+34693504	1199.753308138955	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+34726521	1202.1075713384944	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+34974198	1196.6969799696549	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		
+35031325	1115.3751777759264	home	twoway_vehicle	
+-	-	other	twoway_vehicle	
+-	-	home		

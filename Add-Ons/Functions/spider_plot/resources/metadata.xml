@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addOn>
+  <identifier>98ee7702-abae-47b3-975d-419dad136b99</identifier>
+  <displayType>Function</displayType>
+  <translatedDisplayType>
+    <en_US>Function</en_US>
+    <ja_JP>関数</ja_JP>
+    <ko_KR>함수</ko_KR>
+    <zh_CN>函数</zh_CN>
+  </translatedDisplayType>
+  <name>spider_plot</name>
+  <author>Moses</author>
+  <version>5.0</version>
+  <downloadUrl>https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/98ee7702-abae-47b3-975d-419dad136b99/086389c6-0808-4cbb-9fc3-cf0358421297/packages/zip?src=addons_ml_desktop_install&amp;profile_id=11388771&amp;license=886910&amp;release_family=R2019a</downloadUrl>
+  <licenseUrl>https://addons.mathworks.com/registry/v1/98ee7702-abae-47b3-975d-419dad136b99/5.0/-/license</licenseUrl>
+  <previewImageUrl>https://www.mathworks.com/responsive_image/160/120/0/0/0/cache/matlabcentral/mlc-downloads/downloads/98ee7702-abae-47b3-975d-419dad136b99/086389c6-0808-4cbb-9fc3-cf0358421297/images/screenshot.png</previewImageUrl>
+  <releaseNotesUrl>https://www.mathworks.com/add-ons/98ee7702-abae-47b3-975d-419dad136b99/086389c6-0808-4cbb-9fc3-cf0358421297/releaseNotes</releaseNotesUrl>
+  <installationFolder>Functions</installationFolder>
+</addOn>

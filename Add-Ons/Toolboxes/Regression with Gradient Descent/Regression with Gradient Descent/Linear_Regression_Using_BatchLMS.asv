@@ -1,0 +1,51 @@
+clc
+close all
+clear all
+%% Dummy System representation by Linear Equation Y=Wx+b; 
+xi = randn(5,1000);
+Ws = randn(5,1);
+bs = randn();
+ys = Ws'*xi + bs;
+
+
+%%
+eta=0.001;
+Wm=randn(size(xi,1),1);
+bs=randn();
+ym=0*ys;
+
+epochs=10;
+
+for i=1:epochs
+    ind=randperm(size(xi,2));
+    for n = 1: size(xi,2)
+        ym(ind(n))=Wm*xi(ind(n)) + bs;
+        e(n)=(ys(ind(n))-ym(ind(n)));
+        Wm=Wm+eta*xi(ind(n))*e(n);
+        bs=bs+eta*e(n);
+    end
+I(i)=sum(e.^2);
+ym=Wm*xi+bs;
+subplot(2,1,1)
+plot(xi,ys);
+hold on
+plot(xi,ym,'r');
+pause(0.1)
+hold off
+end
+ym=Wm*xi+bs;
+subplot(2,1,1)
+plot(xi,ys);
+hold on
+plot(xi,ym,'r');
+legend('Desired','Output','Location','Best');
+xlabel('Input   :   Value of X');
+ylabel('Output  :   Value of Y');
+title('Input/Output Graph');
+subplot(2,1,2)
+plot(I);
+xlabel('Number of Epochs');
+ylabel('Mean Squared Error (MSE)');
+title('Cost Function');
+I(end)
+[Wm bs]

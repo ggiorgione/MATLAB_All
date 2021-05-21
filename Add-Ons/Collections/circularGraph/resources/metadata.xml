@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addOn>
+  <identifier>7abd3041-afe0-4be7-b20e-8995bc5fce93</identifier>
+  <displayType>Collection</displayType>
+  <translatedDisplayType>
+    <en_US>Collection</en_US>
+    <ja_JP>コレクション</ja_JP>
+    <ko_KR>컬렉션</ko_KR>
+    <zh_CN>集合</zh_CN>
+  </translatedDisplayType>
+  <name>circularGraph</name>
+  <author>Paul Kassebaum</author>
+  <version>2.0.0.0</version>
+  <downloadUrl>https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/48576/versions/5/download/zip?src=addons_ml_desktop_install&amp;profile_id=11388771&amp;license=886910&amp;release_family=R2020a</downloadUrl>
+  <licenseUrl>https://addons.mathworks.com/registry/v1/7abd3041-afe0-4be7-b20e-8995bc5fce93/2.0.0.0/-/license</licenseUrl>
+  <previewImageUrl>https://www.mathworks.com/responsive_image/160/120/0/0/0/cache/matlabcentral/mlc-downloads/downloads/submissions/48576/versions/5/screenshot.jpg</previewImageUrl>
+  <releaseNotesUrl>https://www.mathworks.com/add-ons/7abd3041-afe0-4be7-b20e-8995bc5fce93/dcc23f15-18df-8a7f-a13f-0b9a67b4ec7f/releaseNotes</releaseNotesUrl>
+  <installationFolder>Collections</installationFolder>
+</addOn>

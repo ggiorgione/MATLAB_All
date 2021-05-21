@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addonCore>
+  <label>Regression with Gradient Descent</label>
+  <version>1.2</version>
+  <type>Toolbox</type>
+  <identifier>e5a8f175-4a80-11e4-9553-005056977bd0</identifier>
+  <summary>Regression with Gradient Descent; A coefficient finding technique for the desired system model. </summary>
+  <description>Regression with Gradient Descent; 
+A coefficient finding technique for the desired system model
+I included different functions to model the data using descent gradient technique
+performed Linear Regression of randomly generated data
+
+In Arbitary.m file I showed the Variable Learning rate technique to model randomly generated values using different sinewaves of different frequencies and offset values</description>
+  <createdBy name="Shujaat Khan"/>
+  <image>resources/screenshot.png</image>
+</addonCore>

@@ -1,0 +1,204 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>Linear_Regression_Using_LMS</title><meta name="generator" content="MATLAB 9.2"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2018-10-15"><meta name="DC.source" content="Linear_Regression_Using_LMS.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#1">Linear Regression using LMS (batch and online learning) Example</a></li><li><a href="#2">Dummy System representation by Linear Equation Y=Wx+b;</a></li><li><a href="#3">LMS parameters</a></li><li><a href="#4">Learning weights and bias</a></li><li><a href="#5">Results</a></li></ul></div><h2 id="1">Linear Regression using LMS (batch and online learning) Example</h2><p>Author: SHUJAAT KHAN, <a href="mailto:shujaat@kaist.ac.kr">shujaat@kaist.ac.kr</a></p><pre class="codeinput">clc
+close <span class="string">all</span>
+clear <span class="string">all</span>
+</pre><h2 id="2">Dummy System representation by Linear Equation Y=Wx+b;</h2><pre class="codeinput">xi = randn(5,1000);     <span class="comment">% 1000 random samples each of length 5</span>
+Ws = randn(5,1);        <span class="comment">% 5 inputs 1 output</span>
+bs = randn();           <span class="comment">% bias in system</span>
+
+SNR = 10;           <span class="comment">% noise in measurements</span>
+ys = Ws'*xi + bs;   <span class="comment">% dummy system</span>
+ys = awgn(ys,SNR);  <span class="comment">% noisy output</span>
+</pre><h2 id="3">LMS parameters</h2><pre class="codeinput"><span class="comment">% choose learning mode</span>
+learning_mode =<span class="string">'online'</span>;
+<span class="comment">% learning_mode ='batch';</span>
+
+eta=1e-3;                   <span class="comment">% step-size</span>
+Wm=randn(size(xi,1),1);     <span class="comment">% initial weights</span>
+bm=randn();                 <span class="comment">% initial bias</span>
+ym=0*ys;
+
+epochs=10;          <span class="comment">% training epochs</span>
+</pre><h2 id="4">Learning weights and bias</h2><pre class="codeinput"><span class="keyword">for</span> i=1:epochs
+    ind=randperm(size(xi,2));     <span class="comment">% shuffling of input samples (for better generealization)</span>
+
+    <span class="keyword">for</span> n = 1: size(xi,2)
+
+        ym(ind(n))=Wm'*xi(:,ind(n)) + bm;       <span class="comment">% estimated output</span>
+        e(n)=(ys(ind(n))-ym(ind(n)));           <span class="comment">% estimaion error</span>
+
+        <span class="comment">% online learning</span>
+        <span class="keyword">if</span> strcmp(learning_mode,<span class="string">'online'</span>)
+            Wm=Wm+eta*xi(:,ind(n))*e(n);
+            bm=bm+eta*e(n);
+        <span class="keyword">end</span>
+    <span class="keyword">end</span>
+
+    <span class="comment">% batch learning</span>
+    <span class="keyword">if</span> strcmp(learning_mode,<span class="string">'batch'</span>)
+        Wm=Wm+eta*xi(:,ind)*e';
+        bm=bm+eta*sum(e);
+    <span class="keyword">end</span>
+
+Imse(i) = mse(e);   <span class="comment">% mean squared error (cost function)</span>
+<span class="keyword">end</span>
+</pre><h2 id="5">Results</h2><pre class="codeinput">figure
+plot(Imse);
+xlabel(<span class="string">'Number of Epochs'</span>);
+ylabel(<span class="string">'Mean Squared Error (MSE)'</span>);
+title(<span class="string">'Cost Function'</span>);
+
+<span class="comment">% noise is system ~= noise in model(mse)</span>
+[SNR -10*log10(Imse(end))]
+<span class="comment">% system weights and bias ~= model weights and bias</span>
+[Ws' bs;Wm' bm]
+</pre><pre class="codeoutput">
+ans =
+
+   10.0000   10.2004
+
+
+ans =
+
+    0.8987   -0.6865    1.4684    1.6453    0.0220    1.7051
+    0.8751   -0.6695    1.4775    1.6296    0.0375    1.6868
+
+</pre><img vspace="5" hspace="5" src="Linear_Regression_Using_LMS_01.png" alt=""> <p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2017a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%% Linear Regression using LMS (batch and online learning) Example
+% Author: SHUJAAT KHAN, shujaat@kaist.ac.kr
+
+clc
+close all
+clear all
+
+%% Dummy System representation by Linear Equation Y=Wx+b; 
+xi = randn(5,1000);     % 1000 random samples each of length 5
+Ws = randn(5,1);        % 5 inputs 1 output
+bs = randn();           % bias in system
+
+SNR = 10;           % noise in measurements
+ys = Ws'*xi + bs;   % dummy system
+ys = awgn(ys,SNR);  % noisy output
+
+
+%% LMS parameters
+
+% choose learning mode
+learning_mode ='online'; 
+% learning_mode ='batch';
+
+eta=1e-3;                   % step-size
+Wm=randn(size(xi,1),1);     % initial weights
+bm=randn();                 % initial bias
+ym=0*ys;                    
+
+epochs=10;          % training epochs
+
+%% Learning weights and bias
+for i=1:epochs
+    ind=randperm(size(xi,2));     % shuffling of input samples (for better generealization)
+    
+    for n = 1: size(xi,2)
+        
+        ym(ind(n))=Wm'*xi(:,ind(n)) + bm;       % estimated output
+        e(n)=(ys(ind(n))-ym(ind(n)));           % estimaion error
+        
+        % online learning
+        if strcmp(learning_mode,'online')
+            Wm=Wm+eta*xi(:,ind(n))*e(n);
+            bm=bm+eta*e(n);
+        end
+    end
+    
+    % batch learning
+    if strcmp(learning_mode,'batch')
+        Wm=Wm+eta*xi(:,ind)*e';
+        bm=bm+eta*sum(e);
+    end
+    
+Imse(i) = mse(e);   % mean squared error (cost function)
+end
+
+%% Results
+figure
+plot(Imse);
+xlabel('Number of Epochs');
+ylabel('Mean Squared Error (MSE)');
+title('Cost Function');
+
+% noise is system ~= noise in model(mse)
+[SNR -10*log10(Imse(end))]
+% system weights and bias ~= model weights and bias
+[Ws' bs;Wm' bm]
+
+
+##### SOURCE END #####
+--></body></html>
