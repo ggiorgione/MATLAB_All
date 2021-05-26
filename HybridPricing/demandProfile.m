@@ -3,7 +3,7 @@
 colorProfile = ([0, 0.42, 0.24; 0.15, 0.26, 0.55; 0.55, 0, 0]);
 midnight = 24;
 maxBookings.FP = 8;
-maxBookings.TRB = 15;
+maxBookings.MPP = 15;
 
 for i = 1:length(sim)
 
@@ -31,19 +31,22 @@ for i = 1:length(sim)
         hold on
         plot(Carsharing(:,1),CarsharingMean5,'Color',colorProfile(2,:));
         plot(Carsharing(:,1),CarsharingMean20,'Color',colorProfile(3,:));
-        title('Carsharing Demand Profile (En Route)');
+%         title('Carsharing Demand Profile (En Route)');
         xlim([0 midnight]);
         if isequal(whichLoop,'FP')
             ylim([0 maxBookings.FP]);
-            if isequal(whichLoop,'TRB')
-                ylim([0 maxBookings.TRB]);
-            end
-        end        
+        end
+        if isequal(whichLoop,'MPP')
+            ylim([0 maxBookings.MPP]);
+        end
         xticks(1:midnight);
+        yticks(1:1:maxBookings.(whichLoop));
         ytickformat('%,.0f')
         ylabel('# Vehicles');
         xlabel('Time [h]');
-        legend('En Route','MovMean on 5 min','MovMean on 20 min','location','best');
+        if isequal(i,length(sim))
+            legend('En Route','MovMean on 5 min','MovMean on 20 min','location','best');
+        end
         filename = [];
         filename.a = sprintf('Demand_Profile_en_route_');
         filename.b = whichLoop;

@@ -15,7 +15,7 @@ for i = 1:length(sim)
     BasicPlan4CSCS = reshape(BasicPlan4CSCS,[length(BasicPlan4CSCS)/2,2]);
     BasicPlan4CSCS = cellfun(@str2double,BasicPlan4CSCS);
 
-    if DemandProfilePlot == 1
+    if DemandProfilePlot == 0
         BasicPlan4CSCS = sortrows(BasicPlan4CSCS,2);
         pd = fitdist(BasicPlan4CSCS(:,2),'Normal');
         scoreNorm = normpdf(BasicPlan4CSCS(:,2),pd.mu,pd.sigma); 
@@ -41,8 +41,8 @@ else
         'Location', 'northwest');
 end
         
-if DemandProfilePlot == 1
-    title('Normal Distribution of the Score');
+if DemandProfilePlot == 0
+%     title('Normal Distribution of the Score');
     filename = [];
     filename.a = sprintf('Normal Distribution of the Score_');
     filename.b = whichLoop;
@@ -185,7 +185,7 @@ if DemandProfilePlot == 1
             'AxesLimits', [axisMin,axisMin,axisMin,axisMin,axisMin;...
             axisMax,axisMax,axisMax,axisMax,axisMax]);
             legend('FP','TBDP010','TBDP030','ABDP105','ABDP120','FPRelocation','TBDP010Relocation',...
-                'Location','southoutside');
+                'Location','eastoutside');
     else
         for i = 1:length(sim)
             for j = 1:length(fieldnames(incomeUniqueScoreSim.(sim{i})))
@@ -207,7 +207,7 @@ if DemandProfilePlot == 1
             'AxesLimits', [axisMin,axisMin,axisMin,axisMin,axisMin;...
             axisMax,axisMax,axisMax,axisMax,axisMax]);
             legend('MPP','TBDP010','TBDP030','ABDP105','ABDP120','MPPRelocation','ABDP105Relocation',...
-                'Location','southoutside');
+                'Location','eastoutside');
     end
     filename = [];
     filename.a = sprintf('SpiderPlot_ScoreMean_');

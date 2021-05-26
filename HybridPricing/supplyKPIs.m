@@ -42,7 +42,7 @@ clear inVehicleTime_temp
 
 %% Spider Plot
 
-if DemandProfilePlot == 1
+if DemandProfilePlot == 0
     if isequal(whichLoop,'FP')
         FP = [profit.FP bookingTime.FP nbookings.FP inVehicleTime.FP walkingTime.FP/nbookings.FP];
         TBDP010 = [profit.TBDP010 bookingTime.TBDP010 nbookings.TBDP010 inVehicleTime.TBDP010 walkingTime.TBDP010/nbookings.TBDP010];
@@ -60,7 +60,7 @@ if DemandProfilePlot == 1
             'FillTransparency', [0.05,0.05,0.05,0.05,0.05,0.05,0.05],...
             'LineStyle', {'-', '--', '--', ':', ':', '-', '-'},...
             'Color', colorSims);
-            legend('FP','TBDP010','TBDP030','ABDP105','ABDP120','FPRelocation','TBDP010Relocation','Location','southoutside');
+            legend('FP','TBDP010','TBDP030','ABDP105','ABDP120','FPRelocation','TBDP010Relocation','Location','eastoutside');
     else
         MPP = [profit.MPP bookingTime.MPP nbookings.MPP inVehicleTime.MPP walkingTime.MPP/nbookings.MPP];
         TBDP010 = [profit.TBDP010 bookingTime.TBDP010 nbookings.TBDP010 inVehicleTime.TBDP010 walkingTime.TBDP010/nbookings.TBDP010];
@@ -78,7 +78,7 @@ if DemandProfilePlot == 1
             'FillTransparency', [0.05,0.05,0.05,0.05,0.05,0.05,0.05],...
             'LineStyle', {'-', '--', '--', ':', ':', '-', '-'},...
             'Color', colorSims);
-            legend('MPP','TBDP010','TBDP030','ABDP105','ABDP120','MPPRelocation','ABDP105Relocation','Location','southoutside');
+            legend('MPP','TBDP010','TBDP030','ABDP105','ABDP120','MPPRelocation','ABDP105Relocation','Location','eastoutside');
     end
     filename = [];
     filename.a = sprintf('SpiderPlot_KPIsSupply');
